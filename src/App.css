@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  padding: 20px;
+
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.weather-card {
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: left;
+}
+
+.weather-card + .weather-card {
+  margin-left: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #888;
+}
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: green;  
+}
